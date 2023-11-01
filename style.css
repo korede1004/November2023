@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 350px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+@media screen and (min-width: 768px) {
+  table {
+    width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+}
+th {
+  background-color: #050303d6;
+  color: #fff;
+  font-family: "Dancing Script", cursive;
+}
+th, td {
+  text-align: center;
+  padding: 10px;
+}
+td {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+caption {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #144720fb;
+}
+.sun {
+  color: #c11616;
+}
+tfoot td {
+  font-family: "Dancing Script", cursive;
+}
